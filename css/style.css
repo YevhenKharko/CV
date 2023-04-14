@@ -503,7 +503,7 @@ body {
 }
 
 .proj__link {
-  padding: 20px;
+  padding: 5px 5px 30px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,7 +519,7 @@ body {
 }
 
 .proj__list {
-  padding: 20px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
