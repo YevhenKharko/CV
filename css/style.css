@@ -219,14 +219,13 @@ body {
   z-index: 1;
   font-size: 20px;
   margin-bottom: 20px;
-  padding: 5px 0;
 }
 .spec::after {
   content: "";
   z-index: -1;
   position: absolute;
   background: #000;
-  border-radius: 15px;
+  border-radius: 5px;
   top: 3%;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -236,10 +235,14 @@ body {
   height: 100%;
 }
 .spec__proj {
+  padding: 15px;
   width: 50%;
   margin: 20px auto;
   text-align: center;
   position: relative;
+}
+.spec__proj_name {
+  padding: 5px;
 }
 .spec__proj_name::after {
   content: "";
@@ -247,7 +250,7 @@ body {
   position: absolute;
   background: -o-linear-gradient(315deg, #000, #1d07c8);
   background: linear-gradient(135deg, #000, #1d07c8);
-  border-radius: 15px;
+  border-radius: 5px;
   top: 3%;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -536,5 +539,5 @@ body {
 
 .spec__proj_name {
   width: 100%;
-  text-align: start;
+  text-align: center;
 }
